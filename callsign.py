@@ -14,6 +14,8 @@ def outputPrint(data):
 
 callsign = 'run'
 
+print("\n Enter an FCC callsign to lookup or 0 to exit.\n\n")
+
 ## run loop
 while (callsign != '0'):
 	# query for callsign
